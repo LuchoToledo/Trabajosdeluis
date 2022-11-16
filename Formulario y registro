@@ -1,0 +1,58 @@
+<!DOCTYPE html>
+<html lang="en">
+<head>
+    <meta charset="UTF-8">
+    <meta http-equiv="X-UA-Compatible" content="IE=edge">
+    <meta name="viewport" content="width=device-width, initial-scale=1.0">
+    <title>Document</title>
+</head>
+    <body>
+        <h1>Registration Form</h1>
+        <div>       
+            <a>Name: </a> <input type="text">
+        </div>    
+        <div>
+            <a>Lasta name: </a> <input type="text">
+        </div>
+        <div>
+            <a>Email Address: </a> <input type="text">
+        </div>
+        <div>
+            <a>Password:   </a> <input type="password">
+        </div>
+        <div>
+            <a>Confirm Password: </a> <input type="password">
+        </div>
+        <div>
+            <a>Brithday: </a><input type="date">
+        </div>
+        <div>
+            <a>Gender Identidy:</a>
+        </div>
+        <div>
+            <input type="radio"> <a>Male</a>
+            <input type="radio"> <a>Female</a>
+            <input type="radio"> <a>Non-binary</a>
+            <input type="radio"> <a>I prefer noto answer</a>
+        </div>
+        <div>
+            <a>A short description about myself:</a>
+        </div>
+        <div>
+            <textarea></textarea>
+        </div>
+        <div>
+            <a>Favorite lenguaje: </a>
+                <select name="JavaScript"></select> 
+        </div>
+        <div>   
+            <input type="checkbox"> <a>Yes, I would like to recibe periodic email updates</a>
+        </div>
+        <div>
+            <input type="submit">
+        </div>
+        <div>
+            <a>* Indicates a requiered field</a>
+        </div>    
+    </body>
+</html>
